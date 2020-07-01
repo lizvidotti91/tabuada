@@ -1,0 +1,49 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #60b4ec;
+}
+
+header{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+section{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+section div{
+    margin-top: 10px;
+}
+
+section p{
+    padding: 10px;
+}
+
+section input[type = "button"]{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+section input[type = "button"]:hover{
+    background-color: #0d0d75;
+    border: none;
+    color: whitesmoke;
+}
+
+section select{
+    padding: 3px;
+}
+
+footer{
+    margin-top: 10vh;
+    text-align: center;
+}

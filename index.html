@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+    <link rel="stylesheet" href="./css/estilosTabuada.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Aprendendo tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <form action="">
+                <p>
+                    Número: <input type="number" name="formNumero" id="numero">
+                </p>
+                <p>
+                    <input type="button" value="Gerar Tabuada!" onclick="tabuada()">
+                </p>
+            </form>
+        </div>
+        <div>
+            <select name="tabuada" id="resposta" size = "10">
+                <option value="">Digite um número acima</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Curso em Vídeo
+        </p>
+    </footer>
+
+    <script src="tabuada.js"></script>
+</body>
+</html>
